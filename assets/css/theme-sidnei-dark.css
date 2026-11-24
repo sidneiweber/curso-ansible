@@ -1,0 +1,50 @@
+:root {
+  /* sidnei-dark — paleta "avocado" do sidneiweber.com.br (stone + lime) */
+  --PRIMARY-color: rgba( 248, 113, 113, 1 );          /* red-400 */
+  --PRIMARY-HOVER-color: rgba( 252, 165, 165, 1 );   /* red-300 */
+  --SECONDARY-color: rgba( 248, 113, 113, 1 );        /* links */
+  --SECONDARY-HOVER-color: rgba( 254, 202, 202, 1 ); /* red-200 */
+  --ACCENT-color: rgba( 251, 113, 133, 1 );           /* rose-400 */
+  --ACCENT-HOVER-color: rgba( 253, 164, 175, 1 );
+
+  --MENU-HEADER-BG-color: rgba( 28, 25, 23, 1 );     /* stone-900 */
+  --MENU-HEADER-BORDER-color: rgba( 68, 64, 60, 1 );
+  --MENU-HEADER-color: rgba( 245, 245, 244, 1 );
+  --MENU-TOPBAR-BORDER-color: rgba( 28, 25, 23, 1 );
+  --MENU-SEARCH-color: rgba( 214, 211, 209, 1 );
+  --MENU-SEARCH-BG-color: rgba( 41, 37, 36, 1 );
+  --MENU-SEARCH-BORDER-color: rgba( 68, 64, 60, 1 );
+  --MENU-HOME-LINK-color: rgba( 214, 211, 209, 1 );
+  --MENU-HOME-LINK-HOVER-color: rgba( 248, 113, 113, 1 );
+  --MENU-SECTIONS-BG-color: rgba( 28, 25, 23, 1 );
+  --MENU-SECTIONS-ACTIVE-BG-color: rgba( 41, 37, 36, 1 );
+  --MENU-SECTIONS-LINK-color: rgba( 168, 162, 158, 1 );
+  --MENU-SECTIONS-LINK-HOVER-color: rgba( 245, 245, 244, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-color: rgba( 248, 113, 113, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: rgba( 41, 37, 36, 1 );
+  --MENU-SECTION-SEPARATOR-color: rgba( 68, 64, 60, 1 );
+  --MENU-VISITED-color: rgba( 220, 38, 38, 1 );
+
+  --TOPBAR-BG-color: rgba( 41, 37, 36, 1 );
+  --MAIN-TOPBAR-BORDER-color: rgba( 68, 64, 60, 1 );
+  --MAIN-BG-color: rgba( 41, 37, 36, 1 );            /* stone-800, fundo do blowfish dark */
+  --MAIN-TEXT-color: rgba( 214, 211, 209, 1 );       /* stone-300 */
+  --MAIN-TITLES-TEXT-color: rgba( 245, 245, 244, 1 );
+
+  --CODE-theme: relearn-dark;
+  --CODE-BLOCK-color: rgba( 231, 229, 228, 1 );
+  --CODE-BLOCK-BG-color: rgba( 28, 25, 23, 1 );
+  --CODE-BLOCK-BORDER-color: rgba( 68, 64, 60, 1 );
+  --CODE-INLINE-color: rgba( 252, 165, 165, 1 );
+  --CODE-INLINE-BG-color: rgba( 28, 25, 23, 1 );
+  --CODE-INLINE-BORDER-color: rgba( 68, 64, 60, 1 );
+
+  --BROWSER-theme: dark;
+  --MERMAID-theme: dark;
+  --OPENAPI-theme: dark;
+  --OPENAPI-CODE-theme: obsidian;
+  --BOX-CAPTION-color: rgba( 245, 245, 244, 1 );
+  --BOX-BG-color: rgba( 28, 25, 23, 1 );
+  --BOX-TEXT-color: rgba( 214, 211, 209, 1 );
+  --BOX-GREY-color: rgba( 68, 64, 60, 1 );
+}

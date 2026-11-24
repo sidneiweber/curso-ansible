@@ -1,0 +1,40 @@
+baseURL = 'https://cursoansible.sidneiweber.com.br/'
+languageCode = 'pt-br'
+defaultContentLanguage = 'pt'
+title = 'Curso Ansible'
+theme = 'relearn'
+
+[languages.pt]
+  languageName = 'Português'
+  weight = 1
+
+[params]
+  editURL = 'https://github.com/sidneiweber/curso-ansible/edit/main/content/${FilePath}'
+  author.name = 'Sidnei Weber'
+  themeVariant = [
+    'sidnei-dark',
+    'sidnei-light',
+    { identifier = 'sidnei-auto', name = 'Automático', auto = ['sidnei-light', 'sidnei-dark'] }
+  ]
+  showVisitedLinks = true
+  collapsibleMenu = true
+  alwaysopen = false
+  disableLandingPageButton = true
+  disableInlineCopyToClipBoard = false
+  linkTitle = 'Curso Ansible'
+
+[markup.highlight]
+  noClasses = false
+  style = 'monokai'
+
+[outputs]
+  home = ['html', 'rss']
+
+# Cards de dica na cor do curso (vermelho); avisos em âmbar para não confundir com as dicas
+[[params.boxStyle]]
+  identifier = 'tip'
+  style = 'primary'
+
+[[params.boxStyle]]
+  identifier = 'warning'
+  color = 'rgba(217, 119, 6, 1)'
